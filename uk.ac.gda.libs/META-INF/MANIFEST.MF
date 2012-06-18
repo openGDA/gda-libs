@@ -12,7 +12,8 @@ Bundle-NativeCode: lib/win32-x86/jogl_awt.dll;  lib/win32-x86/jogl_cg.dll; lib/w
  lib/linux-x86/libjogl_awt.so; lib/linux-x86/libjogl.so; lib/linux-x86/libgluegen-rt.so; lib/linux-x86/libjogl_cg.so;
  osname=Linux; processor=x86,
  lib/linux-x86_64/libgluegen-rt.so; lib/linux-x86_64/libjogl_awt.so; lib/linux-x86_64/libjogl_cg.so; lib/linux-x86_64/libjogl.so;
- osname=Linux; processor=x86_64
+ osname=Linux; processor=x86_64,
+ *
 Export-Package: codecLib.mpa,
  com.caucho.burlap.client,
  com.caucho.burlap.io,
